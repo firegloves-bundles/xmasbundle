@@ -9,4 +9,4 @@
 <#-- Don't add anything above this line. The build scripts will automatically link the compiled JS and CSS for you and add them above this line so that the widget can be loaded-->
 
 <#-- This is the custom element -->
-<conference-form service-url="/lcorsettientando/xmasbundle/0-0-1-snapshot" />
+<conference-form service-url="/lcorsettientando/xmasbundle/0-0-1-snapshot/api" />
