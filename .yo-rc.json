@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.entando",
+      "nativeLanguage": "en"
+    },
+    "bundleName": "xmasbundle-bundle",
+    "dockerOrganization": "lcorsettientando",
+    "generateMicroFrontends": "always",
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "microservice",
+    "baseName": "xmasbundle",
+    "packageName": "org.entando",
+    "packageFolder": "org/entando",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWVhOTE5YjhmMmZiMzkzYjlkZDdhZDljYTFlYzIwYzViOTUwZGZkNmQ2MDZjNmE0Mzc0ZGUyZmJiY2Y4ZTQxNzA3MTdmMmUwY2VlZDI1YWJjN2RmZmY1MTUyYjBhN2QwMjc2M2JmYzg5MDdkZDllZGJkMjAwNDI3NjY2ZDYwM2M=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1608825331810,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "skipCheckLengthOfIdentifier": false,
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "it"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

@@ -1,0 +1,11 @@
+version: '2'
+services:
+  xmasbundle-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/xmasbundle/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=xmasbundle
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
