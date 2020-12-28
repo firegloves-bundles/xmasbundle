@@ -1,0 +1,33 @@
+{
+  "error": {
+    "dataLoading": "Error during server connection"
+  },
+  "common": {
+    "save": "Save",
+    "dataSaved": "Dog successfully saved",
+    "dataDeleted": "Dog successfully deleted",
+    "notAuthenticated": "User is not authenticated.",
+    "selectFile": "Upload new file",
+    "selectImageFile": "Upload new image",
+    "download": "Download",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} is required"
+  },
+  "entities": {
+    "dog": {
+      "deleteDialog": {
+        "title": "Delete dog",
+        "description": "Are you sure?"
+      },
+      "notFound": "Dog not found",
+      "deleted": "Dog deleted",
+      "id": "ID",
+      "name": "entities.dog.name"
+    }
+  }
+}

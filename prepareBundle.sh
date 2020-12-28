@@ -81,8 +81,8 @@ function getServiceUrlFromDockerImage() {
     local dockerImage="$1"
 
     [ -z "$dockerImage" ] && echo ""
-    echo "$dockerImage" | tr : / | sed 's:[^a-zA-Z0-9/]:-:g' | tr "[:upper:]" "[:lower:]" | sed 's:^:/:g' 
-    
+    echo "$dockerImage" | tr : / | sed 's:[^a-zA-Z0-9/]:-:g' | tr "[:upper:]" "[:lower:]" | sed 's:^:/:g'
+
 }
 
 function updateFTLTemplate() {
@@ -90,7 +90,7 @@ function updateFTLTemplate() {
     local dir="$1"
     local bundleCode="$2"
     local dockerImage="$3"
-    
+
 
     widgetName=$(basename "$dir")
     ingressPath=$(getServiceUrlFromDockerImage "$dockerImage")
@@ -104,7 +104,7 @@ function updateFTLTemplate() {
 
         if [ -n "$ingressPath" ]; then
             # Replace the service path with the correct ingressPath
-            sedReplace "s|service-url=\".*\"|service-url=\"$ingressPath\"|g" "$ftlName"
+            sedReplace "s|service-url=\".*\"|service-url=\"$ingressPath/api\"|g" "$ftlName"
         fi
 
         #For every JS file add a script reference in the widget FTL

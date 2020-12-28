@@ -1,0 +1,21 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "xmasbundle",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "street",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20201224155652",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "conference",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "xmasbundle"
+}

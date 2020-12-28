@@ -1,0 +1,33 @@
+{
+  "error": {
+    "dataLoading": "Errore durante la connessione al server"
+  },
+  "common": {
+    "save": "Salva",
+    "dataSaved": "Dog salvato/a con successo",
+    "dataDeleted": "Dog eliminato/a con successo",
+    "notAuthenticated": "L'utente non è autenticato.",
+    "selectFile": "Carica nuovo file",
+    "selectImageFile": "Carica nuova immagine",
+    "download": "Scarica",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "yes": "Si",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} è obbligatorio"
+  },
+  "entities": {
+    "dog": {
+      "deleteDialog": {
+        "title": "Elimina dog",
+        "description": "Sei sicuro/a?"
+      },
+      "notFound": "Dog non trovato/a",
+      "deleted": "Dog eliminato/a",
+      "id": "ID",
+      "name": "entità.dog.name"
+    }
+  }
+}
