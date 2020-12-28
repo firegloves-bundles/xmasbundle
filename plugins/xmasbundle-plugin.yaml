@@ -4,4 +4,5 @@ healthCheckPath: "/management/health"
 roles:
   - "xmasbundle-admin"
   - "conference-admin"
+  - "dog-admin"
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here

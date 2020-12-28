@@ -1,0 +1,6 @@
+code: dog-table-widget
+titles:
+  en: Dog Table Widget
+  it: Dog Table Widget
+group: free
+customUiPath: dog-table-widget.ftl
