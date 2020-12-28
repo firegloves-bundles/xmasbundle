@@ -1,4 +1,4 @@
-image: lcorsettientando/xmasbundle:0.0.1-SNAPSHOT
+image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
