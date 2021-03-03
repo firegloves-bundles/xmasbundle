@@ -1,5 +1,6 @@
 code: xmasbundle-bundle
 description: This is the xmasbundle bundle
+bundleType: system-level-bundle
 
 components:
 #  plugins:
