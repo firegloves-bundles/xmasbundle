@@ -11,8 +11,9 @@ spec:
     name: xmasbundle-bundle
     description: This is the xmasbundle bundle
     dist-tags:
-      latest: 0.0.2
+      latest: 0.0.3
     versions:
+      - 0.0.3
       - 0.0.2
       - 0.0.1
     thumbnail: >-
@@ -23,6 +24,10 @@ spec:
       integrity: 794a092ff8041b29d8bb3bb9d5b35317e0a49b1c
       tarball: 'https://github.com/firegloves-bundles/xmasbundle.git'
     - version: 0.0.1
+      shasum: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
+      integrity: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
+      tarball: 'https://github.com/firegloves-bundles/xmasbundle.git'
+    - version: 0.0.3
       shasum: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
       integrity: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
       tarball: 'https://github.com/firegloves-bundles/xmasbundle.git'
