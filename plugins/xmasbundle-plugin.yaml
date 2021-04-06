@@ -5,5 +5,5 @@ roles:
   - "xmasbundle-admin"
   - "conference-admin"
   - "dog-admin"
-ingressPath: customingress
+ingressPath: /myhostname.io/xmasbundle
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here
