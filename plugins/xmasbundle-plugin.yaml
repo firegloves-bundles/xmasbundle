@@ -1,3 +1,4 @@
+descriptorVersion: v3
 image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
