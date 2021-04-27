@@ -1,8 +1,9 @@
+descriptorVersion: v3
 image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
-  - "xmasbundle-admin"
-  - "conference-admin"
-  - "dog-admin"
+    - "xmasbundle-admin"
+    - "conference-admin"
+    - "dog-admin"
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here
