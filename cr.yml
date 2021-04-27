@@ -11,8 +11,9 @@ spec:
     name: xmasbundle-bundle
     description: This is the xmasbundle bundle
     dist-tags:
-      latest: 0.0.4
+      latest: 0.0.5
     versions:
+      - 0.0.5
       - 0.0.4
       - 0.0.3
       - 0.0.2
@@ -34,6 +35,11 @@ spec:
       tarball: 'https://github.com/firegloves-bundles/xmasbundle.git'
     - version: 0.0.4
       description: 'equal to the 0.0.2 but with custom ingress path'
+      shasum: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
+      integrity: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
+      tarball: 'https://github.com/firegloves-bundles/xmasbundle.git'
+    - version: 0.0.5
+      description: 'equal to the 0.0.2 but plugin descriptor v3 with custom ingress path'
       shasum: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
       integrity: 4224beebcfa132c33fa354d1c1ab1365dd28fbbb
       tarball: 'https://github.com/firegloves-bundles/xmasbundle.git'
