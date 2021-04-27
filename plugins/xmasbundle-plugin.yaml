@@ -1,4 +1,4 @@
-descriptorVersion: v3
+descriptorVersion: INVALID
 image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
