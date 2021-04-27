@@ -1,8 +1,20 @@
-image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
-dbms: postgresql
-healthCheckPath: "/management/health"
-roles:
-  - "xmasbundle-admin"
-  - "conference-admin"
-  - "dog-admin"
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+    name: "xmasbundle-plugin"
+spec:
+    image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
+    replicas: 1
+    dbms: postgresql
+    parameters: {}
+    healthCheckPath: "/management/health"
+    securityLevel: "strict"
+    connectionConfigNames: []
+    permissions: []
+    roles:
+        - name: sixthree-admin
+          code: "sixthree-admin"
+        - name: foo-admin
+          code: "foo-admin"
+
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here
