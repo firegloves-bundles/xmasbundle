@@ -1,5 +1,5 @@
 descriptorVersion: v3
-image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
+image: lcorsettientando/xmasbundle:0.0.3-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
