@@ -5,7 +5,7 @@
 
     <groupId>org.entando</groupId>
     <artifactId>xmasbundle</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Xmasbundle</name>
 
@@ -386,7 +386,7 @@
                   <artifactId>scala-library</artifactId>
               </exclusion>
           </exclusions>
-          
+
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
     </dependencies>
