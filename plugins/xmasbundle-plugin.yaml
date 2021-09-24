@@ -1,9 +1,23 @@
-descriptorVersion: v3
-image: lcorsettientando/xmasbundle:0.0.3-SNAPSHOT
+descriptorVersion: v3.1
+image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
   - "xmasbundle-admin"
   - "conference-admin"
   - "dog-admin"
-# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
+ingressPath: "/myhostname.io/entando-plugin"
+permissions:
+  - clientId: realm-management
+    role: manage-users
+  - clientId: realm-management
+    role: view-users
+securityLevel: lenient
+environmentVariables:
+  - name: ENV_1_NAME
+    value: env1value
+  - name: ENV_2_NAME
+    secretKeyRef:
+      name: env-2-secret
+      key: env-2secret-key
+
