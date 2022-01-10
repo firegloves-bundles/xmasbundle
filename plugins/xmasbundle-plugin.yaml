@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: lcorsettientando/xmasbundle:NOT_EXISTING
+image: lcorsettientando/xmasbundle:0.0.2-SNAPSHOT
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
@@ -18,6 +18,6 @@ environmentVariables:
     value: env1value
   - name: ENV_2_NAME
     secretKeyRef:
-      name: env-2-secret
+      name: env-2-secret-lcorsettientando-xmasbundle-xmasbundle
       key: env-2secret-key
 
