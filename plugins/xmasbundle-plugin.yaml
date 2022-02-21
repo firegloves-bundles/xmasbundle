@@ -18,6 +18,6 @@ environmentVariables:
     value: env1value
   - name: ENV_2_NAME
     secretKeyRef:
-      name: env-2-secret-lcorsettientando-xmasbundle-7485af32-xmasbundle-firegloves-github.org
+      name: env-2-secret-lcorsettientando-xmasbundle-b2271e82-xmasbundle-firegloves-github.org
       key: env-2secret-key
 
